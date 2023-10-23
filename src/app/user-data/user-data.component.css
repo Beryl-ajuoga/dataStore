@@ -1,0 +1,40 @@
+.user-data {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .user-data label {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .user-data input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+    
+  .user-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid rgb(90, 88, 88);
+    padding: 10px;
+  }
+  
+  .user-table th {
+    background-color: white;
+  }
+  
+  .user-table .actions {
+    text-align: center;
+  }
+  
+  .user-table .actions button {
+    margin-right: 15px;
+  }
+  
